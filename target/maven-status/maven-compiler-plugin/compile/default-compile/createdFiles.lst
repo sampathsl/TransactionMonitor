@@ -1,0 +1,7 @@
+com\n26\main\MainTransactionMonitor.class
+com\n26\main\controller\TransactionAsyncController.class
+com\n26\main\service\TransactionStatisticsAsyncService.class
+com\n26\main\domain\Statistics.class
+com\n26\main\service\TransactionCollector.class
+com\n26\main\service\TransactionCreationAsyncService.class
+com\n26\main\domain\Transaction.class
