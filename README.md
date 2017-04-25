@@ -1,4 +1,4 @@
-# N26 Transaction Monitoring Async RESTful Service
+# Transaction Monitoring Async RESTful Service
 
 The main purpose of this application is to monitor transactions with in 60 
  seconds of time.
