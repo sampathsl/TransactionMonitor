@@ -7,7 +7,7 @@ The main purpose of this application is to monitor transactions with in 60
 ## How to Build the Project
 ```
 mvn clean
-mvn pakage
+mvn package
 ```
 
 ## How to Run the Project
