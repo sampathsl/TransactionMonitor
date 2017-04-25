@@ -55,6 +55,7 @@ java -jar target/TransactionMonitor-0.0.1-SNAPSHOT.jar
     
  # TODO
     * Exception handling
+    * Add Spring Security features
     * Keep the constant memory consumption
     * Resolve the thread hanging situations
     * Monitor the transactions - UI Level
