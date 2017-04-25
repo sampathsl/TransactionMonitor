@@ -53,3 +53,10 @@ java -jar target/TransactionMonitor-0.0.1-SNAPSHOT.jar
     * max is double value (max transaction value)
     * min is double value (min transaction value)
     * count is long value (number of transactions)
+    
+ # TODO
+    * Exception handling
+    * Keep the constant memory consumption
+    * Optimize the thread hanging situations
+    * Monitor the transactions - UI Level
+ 
