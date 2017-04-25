@@ -57,6 +57,6 @@ java -jar target/TransactionMonitor-0.0.1-SNAPSHOT.jar
  # TODO
     * Exception handling
     * Keep the constant memory consumption
-    * Optimize the thread hanging situations
+    * Resolve the thread hanging situations
     * Monitor the transactions - UI Level
  
