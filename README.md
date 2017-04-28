@@ -54,6 +54,7 @@ java -jar target/TransactionMonitor-0.0.1-SNAPSHOT.jar
     * count is long value (number of transactions)
     
  # TODO
+    * BUG JVM object uniqueness :( - http://www.javaworld.com/article/2073618/java-s-system-identityhashcode.html
     * Exception handling
     * Add Spring Security features
     * Keep the constant memory consumption
