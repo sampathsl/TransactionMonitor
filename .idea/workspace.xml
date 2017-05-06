@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7972180-bebd-44ea-931a-90baf3631c8f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TransactionMonitor-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/TransactionMonitor-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TransactionMonitor-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/TransactionMonitor-0.0.1-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java" afterPath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java" afterPath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.n26.main.AsyncSaveTransactionTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.n26.main.AsyncSaveTransactionTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.n26.main.AsyncTransactionMixTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.n26.main.AsyncTransactionMixTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncSaveTransactionTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncSaveTransactionTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncTransactionMixTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncTransactionMixTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncTransactionSequenceTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncTransactionSequenceTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncTransactionStatisticsTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncTransactionStatisticsTest.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/n26/main/domain/TransactionStatistics.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java" afterPath="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +19,7 @@
       <file leaf-file-name="MainTransactionMonitor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/MainTransactionMonitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
+            <state relative-caret-position="43">
               <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="e#773#774#0" expanded="true" />
@@ -39,31 +29,53 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TransactionCollector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCollector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionAsyncController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/controller/TransactionAsyncController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-245">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AsyncTransactionSequenceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionSequenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="-371">
               <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AbstractControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AbstractTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -72,18 +84,18 @@
       <file leaf-file-name="TransactionCreationAsyncService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="-80">
               <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionStatisticsAsyncService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TransactionStatisticsAsyncService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="28" column="94" lean-forward="false" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
+            <state relative-caret-position="75">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,8 +104,8 @@
       <file leaf-file-name="AsyncTransactionMixTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionMixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="50" column="11" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="50" selection-end-column="11" />
+            <state relative-caret-position="382">
+              <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,21 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncTransactionStatisticsTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AsyncTransactionStatisticsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsyncSaveTransactionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncSaveTransactionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="299">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -190,7 +192,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/controller/TransactionAsyncController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/domain/TransactionStatistics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Transaction.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest2.java" />
@@ -202,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionMixTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java" />
       </list>
     </option>
   </component>
@@ -1009,7 +1011,7 @@
       <workItem from="1493133757518" duration="3140000" />
       <workItem from="1493170412998" duration="31000" />
       <workItem from="1493170576309" duration="835000" />
-      <workItem from="1493812980546" duration="32983000" />
+      <workItem from="1493812980546" duration="33277000" />
     </task>
     <task id="LOCAL-00001" summary="Update todo list">
       <created>1493134935957</created>
@@ -1054,7 +1056,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95475000" />
+    <option name="totallyTimeSpent" value="95769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1081,7 +1083,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47203946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26573938" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26573938" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1092,39 +1094,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39802632" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28947368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47203946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26573938" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1158,14 +1127,8 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/Transaction.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1355,14 +1318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/controller/TransactionAsyncController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/DoubleSummaryStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1374,14 +1329,6 @@
             <element signature="e#6354#6355#0" expanded="false" />
             <element signature="e#6380#6381#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,38 +1356,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/TransactionStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding>
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1479,35 +1399,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionSequenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/controller/TransactionAsyncController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="390">
+          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="80">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionMixTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="50" column="11" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="50" selection-end-column="11" />
+        <state relative-caret-position="-245">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/MainTransactionMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
+        <state relative-caret-position="43">
           <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="e#773#774#0" expanded="true" />
@@ -1516,18 +1460,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionMixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        <state relative-caret-position="382">
+          <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionSequenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="94" lean-forward="false" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
+        <state relative-caret-position="299">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding />
         </state>
       </provider>

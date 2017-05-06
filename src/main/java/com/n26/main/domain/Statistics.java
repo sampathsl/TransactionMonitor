@@ -5,9 +5,6 @@ package com.n26.main.domain;
  */
 public final class Statistics {
 
-//    final static AtomicLong NEXT_ID = new AtomicLong(1);
-//    private final long id = NEXT_ID.getAndIncrement();
-
     private final double sum;
     private final double avg;
     private final double max;
