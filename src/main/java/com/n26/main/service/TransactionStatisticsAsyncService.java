@@ -23,11 +23,8 @@ public class TransactionStatisticsAsyncService {
 
     @Async
     public CompletableFuture<Statistics> getTransactionSummary() {
-        return CompletableFuture.supplyAsync(() -> {
 
-            TransactionCollector.transactions.entrySet().forEach(e -> {
-                System.out.println(e.getKey());
-            });
+        return CompletableFuture.supplyAsync(() -> {
 
             Transaction transaction = TransactionCollector.transactions.firstEntry().getKey();
             System.out.println(transaction.getId());
@@ -38,6 +35,7 @@ public class TransactionStatisticsAsyncService {
                 return statistics;
 
         }, transactionExecutor);
+
     }
 
 }

@@ -1,7 +1,8 @@
-D:\TransactionMonitor\src\main\java\com\n26\main\domain\Transaction.java
-D:\TransactionMonitor\src\main\java\com\n26\main\service\TransactionCreationAsyncService.java
-D:\TransactionMonitor\src\main\java\com\n26\main\domain\Statistics.java
-D:\TransactionMonitor\src\main\java\com\n26\main\MainTransactionMonitor.java
-D:\TransactionMonitor\src\main\java\com\n26\main\service\TransactionStatisticsAsyncService.java
-D:\TransactionMonitor\src\main\java\com\n26\main\service\TransactionCollector.java
-D:\TransactionMonitor\src\main\java\com\n26\main\controller\TransactionAsyncController.java
+D:\GIT\TransactionMonitor\src\main\java\com\n26\main\service\TransactionCollector.java
+D:\GIT\TransactionMonitor\src\main\java\com\n26\main\service\TransactionCreationAsyncService.java
+D:\GIT\TransactionMonitor\src\main\java\com\n26\main\domain\Transaction.java
+D:\GIT\TransactionMonitor\src\main\java\com\n26\main\MainTransactionMonitor.java
+D:\GIT\TransactionMonitor\src\main\java\com\n26\main\controller\TransactionAsyncController.java
+D:\GIT\TransactionMonitor\src\main\java\com\n26\main\service\TransactionStatisticsAsyncService.java
+D:\GIT\TransactionMonitor\src\main\java\com\n26\main\domain\Statistics.java
+D:\GIT\TransactionMonitor\src\main\java\com\n26\main\domain\TransactionStatistics.java

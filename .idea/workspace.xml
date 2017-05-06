@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7972180-bebd-44ea-931a-90baf3631c8f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.n26.main.AsyncTransactionIntegratedTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncTransactionIntegratedTest.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TransactionMonitor-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/TransactionMonitor-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/TransactionMonitor-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/TransactionMonitor-0.0.1-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java" afterPath="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Transaction.java" afterPath="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Transaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCollector.java" afterPath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCollector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java" afterPath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java" afterPath="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.n26.main.AsyncSaveTransactionTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.n26.main.AsyncSaveTransactionTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.n26.main.AsyncTransactionStatisticsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.n26.main.AsyncTransactionStatisticsTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncSaveTransactionTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncSaveTransactionTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncTransactionStatisticsTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.n26.main.AsyncTransactionStatisticsTest.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionSequenceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest2.java" afterPath="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionMixTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,56 +31,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/Transaction.java">
+      <file leaf-file-name="AsyncTransactionSequenceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionSequenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1689#1690#0" expanded="true" />
-                <element signature="e#1761#1762#0" expanded="true" />
-                <element signature="e#1816#1817#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="332">
-                <caret line="56" column="26" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionCollector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCollector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="64">
+              <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionStatistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/domain/TransactionStatistics.java">
+      <file leaf-file-name="AbstractControllerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AbstractControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-              <folding>
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AbstractTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,21 +64,9 @@
       <file leaf-file-name="TransactionCreationAsyncService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="411">
               <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsyncTransactionIntegratedTest2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1504">
-              <caret line="94" column="54" lean-forward="false" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +74,30 @@
       <file leaf-file-name="TransactionStatisticsAsyncService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="272">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncTransactionMixTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionMixTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncTransactionStatisticsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -111,18 +106,8 @@
       <file leaf-file-name="AsyncSaveTransactionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncSaveTransactionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsyncTransactionIntegratedTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="55" column="95" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="55" selection-end-column="95" />
+            <state relative-caret-position="128">
+              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -195,18 +180,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AbstractControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/MainTransactionMonitor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/controller/TransactionAsyncController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/domain/TransactionStatistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Statistics.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncSaveTransactionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/domain/Transaction.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCollector.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncSaveTransactionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionSequenceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionMixTest.java" />
       </list>
     </option>
   </component>
@@ -458,7 +445,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AsyncTransactionIntegratedTest2">
+  <component name="RunManager">
     <configuration default="false" name="MainTransactionMonitor" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -497,7 +484,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AsyncTransactionIntegratedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AsyncTransactionSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.n26.main.*" />
@@ -508,7 +495,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.n26.main" />
-      <option name="MAIN_CLASS_NAME" value="com.n26.main.AsyncTransactionIntegratedTest" />
+      <option name="MAIN_CLASS_NAME" value="com.n26.main.AsyncTransactionSequenceTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -523,7 +510,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AsyncTransactionIntegratedTest.getInitialTransactionStatistics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AsyncTransactionSequenceTest.getInitialTransactionStatistics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.n26.main.*" />
@@ -534,7 +521,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.n26.main" />
-      <option name="MAIN_CLASS_NAME" value="com.n26.main.AsyncTransactionIntegratedTest" />
+      <option name="MAIN_CLASS_NAME" value="com.n26.main.AsyncTransactionSequenceTest" />
       <option name="METHOD_NAME" value="getInitialTransactionStatistics" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -549,7 +536,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AsyncTransactionIntegratedTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AsyncTransactionMixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.n26.main.*" />
@@ -560,7 +547,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.n26.main" />
-      <option name="MAIN_CLASS_NAME" value="com.n26.main.AsyncTransactionIntegratedTest2" />
+      <option name="MAIN_CLASS_NAME" value="com.n26.main.AsyncTransactionMixTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -983,17 +970,17 @@
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SampleAsyncProjectApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.MainTransactionMonitor" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.AsyncSaveTransactionTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AsyncTransactionIntegratedTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AsyncTransactionIntegratedTest.getInitialTransactionStatistics" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.AsyncTransactionIntegratedTest2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AsyncTransactionSequenceTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AsyncTransactionSequenceTest.getInitialTransactionStatistics" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AsyncTransactionMixTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AsyncTransactionIntegratedTest2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AsyncTransactionIntegratedTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AsyncTransactionMixTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AsyncTransactionSequenceTest" />
         <item index="2" class="java.lang.String" itemvalue="Spring Boot.MainTransactionMonitor" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.AsyncSaveTransactionTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AsyncTransactionIntegratedTest.getInitialTransactionStatistics" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AsyncTransactionSequenceTest.getInitialTransactionStatistics" />
       </list>
     </recent_temporary>
   </component>
@@ -1014,7 +1001,7 @@
       <workItem from="1493133757518" duration="3140000" />
       <workItem from="1493170412998" duration="31000" />
       <workItem from="1493170576309" duration="835000" />
-      <workItem from="1493812980546" duration="30530000" />
+      <workItem from="1493812980546" duration="32245000" />
     </task>
     <task id="LOCAL-00001" summary="Update todo list">
       <created>1493134935957</created>
@@ -1027,42 +1014,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AsyncTransactionIntegratedTest - 2017.05.06 at 15h 22m 35s.xml">
-      <configuration name="AsyncTransactionIntegratedTest" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 16m 50s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AsyncTransactionIntegratedTest - 2017.05.06 at 15h 35m 44s.xml">
-      <configuration name="AsyncTransactionIntegratedTest" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 23m 40s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AsyncTransactionIntegratedTest - 2017.05.06 at 15h 39m 35s.xml">
-      <configuration name="AsyncTransactionIntegratedTest" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 30m 15s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AsyncTransactionIntegratedTest - 2017.05.06 at 18h 33m 23s.xml">
-      <configuration name="AsyncTransactionIntegratedTest" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 31m 23s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AsyncTransactionIntegratedTest - 2017.05.06 at 18h 33m 41s.xml">
-      <configuration name="AsyncTransactionIntegratedTest" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 32m 29s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AsyncTransactionIntegratedTest2 - 2017.05.06 at 18h 48m 22s.xml">
-      <configuration name="AsyncTransactionIntegratedTest2" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 33m 38s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AsyncTransactionIntegratedTest2 - 2017.05.06 at 18h 51m 04s.xml">
-      <configuration name="AsyncTransactionIntegratedTest2" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 34m 57s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AsyncTransactionIntegratedTest2 - 2017.05.06 at 18h 54m 53s.xml">
-      <configuration name="AsyncTransactionIntegratedTest2" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 35m 56s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AsyncTransactionIntegratedTest2 - 2017.05.06 at 18h 57m 22s.xml">
-      <configuration name="AsyncTransactionIntegratedTest2" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 36m 10s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AsyncTransactionIntegratedTest2 - 2017.05.06 at 18h 58m 13s.xml">
-      <configuration name="AsyncTransactionIntegratedTest2" configurationId="JUnit" />
+    <history-entry file="AsyncTransactionMixTest - 2017.05.06 at 19h 36m 23s.xml">
+      <configuration name="AsyncTransactionMixTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93022000" />
+    <option name="totallyTimeSpent" value="94737000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1083,7 +1070,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28947368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53289473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47203946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26573938" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -1292,22 +1279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AbstractTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="33" column="75" lean-forward="false" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-128">
@@ -1331,14 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AbstractControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1413,48 +1376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="55" column="95" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="55" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncSaveTransactionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionIntegratedTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1504">
-          <caret line="94" column="54" lean-forward="false" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCollector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1498,6 +1419,72 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AbstractControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionCreationAsyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n26/main/service/TransactionStatisticsAsyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncSaveTransactionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionSequenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionStatisticsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/n26/main/AsyncTransactionMixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

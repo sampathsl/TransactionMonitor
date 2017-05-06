@@ -1,5 +1,6 @@
-com\n26\main\AsyncTransactionIntegratedTest.class
+com\n26\main\AsyncTransactionSequenceTest.class
 com\n26\main\AsyncTransactionStatisticsTest.class
+com\n26\main\AsyncTransactionMixTest.class
 com\n26\main\AbstractControllerTest.class
 com\n26\main\AbstractTest.class
 com\n26\main\AsyncSaveTransactionTest.class

@@ -5,3 +5,4 @@ com\n26\main\domain\Statistics.class
 com\n26\main\service\TransactionCollector.class
 com\n26\main\service\TransactionCreationAsyncService.class
 com\n26\main\domain\Transaction.class
+com\n26\main\domain\TransactionStatistics.class
