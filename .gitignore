@@ -24,3 +24,5 @@ target/classes/META-INF/maven/com.example/demo/pom.properties
 target/classes/application.properties
 
 target/classes/META-INF/maven/com.example/demo/pom.xml
+
+.idea
