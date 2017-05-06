@@ -3,63 +3,68 @@ package com.n26.main.domain;
 /**
  * Created by SAMPATH on 4/22/2017.
  */
-public class Statistics {
+public final class Statistics {
 
-    private double sum;
-    private double avg;
-    private double max;
-    private double min;
-    private long count;
+//    final static AtomicLong NEXT_ID = new AtomicLong(1);
+//    private final long id = NEXT_ID.getAndIncrement();
 
-    public Statistics(){super();}
+    private final double sum;
+    private final double avg;
+    private final double max;
+    private final double min;
+    private final long count;
 
     public Statistics(double sum, double avg, double max, double min , long count) {
         super();
-        this.setSum(sum);
-        this.setAvg(avg);
-        this.setMax(max);
-        this.setMin(min);
-        this.setCount(count);
+        this.sum = sum;
+        this.avg = avg;
+        this.max = max;
+        this.min = min;
+        this.count = count;
     }
 
     public double getSum() {
         return sum;
     }
 
-    public void setSum(double sum) {
-        this.sum = sum;
-    }
-
     public double getAvg() {
         return avg;
-    }
-
-    public void setAvg(double avg) {
-        this.avg = avg;
     }
 
     public double getMax() {
         return max == Double.POSITIVE_INFINITY || max == Double.NEGATIVE_INFINITY ? 0 : max;
     }
 
-    public void setMax(double max) {
-        this.max = max;
-    }
-
     public double getMin() {
         return min == Double.NEGATIVE_INFINITY || min == Double.POSITIVE_INFINITY ? 0 : min;
-    }
-
-    public void setMin(double min) {
-        this.min = min;
     }
 
     public long getCount() {
         return count;
     }
 
-    public void setCount(long count) {
-        this.count = count;
+    /*@Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Statistics that = (Statistics) o;
+        return id == that.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return (int) (id ^ (id >>> 32));
+    }*/
+
+    @Override
+    public String toString() {
+        return "Statistics{" +
+                "sum=" + sum +
+                ", avg=" + avg +
+                ", max=" + max +
+                ", min=" + min +
+                ", count=" + count +
+                '}';
     }
 
 }

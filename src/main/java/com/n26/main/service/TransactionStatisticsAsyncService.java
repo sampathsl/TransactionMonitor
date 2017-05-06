@@ -24,11 +24,19 @@ public class TransactionStatisticsAsyncService {
     @Async
     public CompletableFuture<Statistics> getTransactionSummary() {
         return CompletableFuture.supplyAsync(() -> {
-            Transaction t = TransactionCollector.transactions.first();
-            if (t.getTimestamp() < (Instant.now().getEpochSecond() * 1000) - 60000)
-                return new Statistics();
+
+            TransactionCollector.transactions.entrySet().forEach(e -> {
+                System.out.println(e.getKey());
+            });
+
+            Transaction transaction = TransactionCollector.transactions.firstEntry().getKey();
+            System.out.println(transaction.getId());
+            Statistics statistics = TransactionCollector.transactions.firstEntry().getValue();
+            if (transaction.getTimestamp() < (Instant.now().getEpochSecond() * 1000) - 60000)
+                return new Statistics(0,0,0,0,0);
             else
-                return TransactionCollector.transactions.first().getStatistics();
+                return statistics;
+
         }, transactionExecutor);
     }
 

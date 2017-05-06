@@ -31,6 +31,6 @@ public class AsyncTransactionStatisticsTest extends AbstractControllerTest {
         this.mockMvc.perform(asyncDispatch(mvcResult))
                 .andExpect(status().isOk())
                 .andExpect(content().contentType("application/json;charset=UTF-8"))
-                .andExpect(content().string(toJson(new Statistics())));
+                .andExpect(content().string(toJson(new Statistics(0,0,0,0,0))));
     }
 }

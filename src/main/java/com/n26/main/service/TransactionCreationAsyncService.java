@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.time.Instant;
 import java.util.DoubleSummaryStatistics;
-import java.util.List;
 import java.util.stream.Collectors;
 
 /**
@@ -28,38 +27,30 @@ public class TransactionCreationAsyncService {
     public HttpStatus saveTransaction(Transaction transaction) {
         try {
 
-            TransactionCollector.transactions.add(transaction);
-            TransactionCollector.transactions.parallelStream()
-                    .filter(t2 -> t2.getTimestamp() >= transaction.getTimestamp())
-                    .collect(Collectors.groupingBy(Transaction::getTimestamp))
+            TransactionCollector.transactions.put(transaction,new Statistics(0,0,
+                    0,0,0));
+
+            TransactionCollector.transactions.entrySet().parallelStream()
+                    .filter(t2 -> t2.getKey().getTimestamp() >= transaction.getTimestamp())
                     .forEach(
-                            (timestamp, transactions) -> this.updateTransactions(transactions)
+                            t3 -> {
+
+                                DoubleSummaryStatistics stats = TransactionCollector.transactions.entrySet().parallelStream()
+                                        .filter(t -> t.getKey().getTimestamp() >= (Instant.now().getEpochSecond() * 1000) - 60000)
+                                        .collect(Collectors.summarizingDouble(e -> e.getKey().getAmount()));
+
+                                TransactionCollector.transactions.put(t3.getKey(),new Statistics(stats.getSum(),stats.getAverage(),
+                                        stats.getMax(),stats.getMin(),stats.getCount()));
+
+                            }
                     );
+
             return HttpStatus.CREATED;
 
         } catch (Exception e) {
+            e.printStackTrace();
             return HttpStatus.INTERNAL_SERVER_ERROR;
         }
-    }
-
-    /**
-     * Calculate the summary statistics for give transaction list
-     * @param Transactions
-     */
-    private void updateTransactions(List<Transaction> Transactions) {
-        DoubleSummaryStatistics stats = TransactionCollector.transactions.parallelStream()
-                .filter(t -> t.getTimestamp() >= (Instant.now().getEpochSecond() * 1000) - 60000)
-                .collect(Collectors.summarizingDouble(Transaction::getAmount));
-        Transactions.forEach(e -> this.updateStatistics(e, stats));
-    }
-
-    /**
-     * Update the transaction statistics in the transaction object
-     * @param transaction
-     * @param stats
-     */
-    private void updateStatistics(Transaction transaction, DoubleSummaryStatistics stats) {
-        transaction.setStatistics(new Statistics(stats.getSum(), stats.getAverage(), stats.getMax(), stats.getMin(), stats.getCount()));
     }
 
 }

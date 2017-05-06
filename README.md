@@ -54,7 +54,8 @@ java -jar target/TransactionMonitor-0.0.1-SNAPSHOT.jar
     * count is long value (number of transactions)
     
  # TODO
-    * BUG JVM object uniqueness :( - http://www.javaworld.com/article/2073618/java-s-system-identityhashcode.html
+    * Immutability - Fixed
+    * BUG JVM object uniqueness :( - http://www.javaworld.com/article/2073618/java-s-system-identityhashcode.html- Fixed introduced concurrent HashMap and Atomic Integer
     * Exception handling
     * Add Spring Security features
     * Keep the constant memory consumption
