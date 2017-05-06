@@ -27,7 +27,6 @@ public class TransactionStatisticsAsyncService {
         return CompletableFuture.supplyAsync(() -> {
 
             Transaction transaction = TransactionCollector.transactions.firstEntry().getKey();
-            System.out.println(transaction.getId());
             Statistics statistics = TransactionCollector.transactions.firstEntry().getValue();
             if (transaction.getTimestamp() < (Instant.now().getEpochSecond() * 1000) - 60000)
                 return new Statistics(0,0,0,0,0);
