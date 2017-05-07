@@ -68,6 +68,6 @@ java -jar target/TransactionMonitor-0.0.1-SNAPSHOT.jar
     * https://crunchify.com/java-concurrentnavigablemap-and-concurrentskiplistmap-example-with-all-details/
  
  # Useful Link
- ![alt text](https://www.dropbox.com/s/jkv9rm4qwlxbfu4/1.jpg)
+ ![alt text](https://www.dropbox.com/s/jkv9rm4qwlxbfu4/1.jpg?dl=0)
  
  
